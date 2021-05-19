@@ -1,0 +1,99 @@
+a {
+    text-decoration: none;
+}
+
+.top-heading {
+	background-color: lightblue;
+	padding: 20px;
+	font-family: Montserrat;
+	font-size: 24px;	
+	text-align: center;
+}
+.control-bar
+{
+    width: 100%;
+    overflow:hidden;
+}
+
+.control-black
+{
+    background-color:#000 !important;
+}
+
+.control-bar-item
+{ 
+    padding: 5px 10px;
+    float:left;
+    width:auto;
+    border:none;
+    display:block;
+    outline:0;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+}
+
+.control-bar-button
+{
+    padding: 5px 10px;
+    float:left;
+    width:auto;
+    display:block;
+    font-size: 20px;
+    color: black;
+    background-color: white;
+}
+
+.column-left{
+    float: left;
+	padding: 10px;
+	width: 40%;
+	font-weight: bold;
+}
+
+.column-right{
+    float: left;
+	padding: 10px;
+	width: 60%;
+	float:left top;
+}
+
+.product-image
+{
+    width: 400px;
+}
+.label-text
+{
+    font-size: 20px;
+}
+
+.name-label
+{
+    width: 500px;
+}
+
+.des-label
+{
+    width: 500px;
+    height: 200px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.image-button
+{
+    padding: 5px 10px;
+    width:auto;
+    outline:0;
+    font-size: 20px;
+    color: black;
+    background-color: lightblue;
+}
+
+.cat-label
+{
+    width: 500px;
+    height: 100px;
+    text-align: left;
+    vertical-align: top;
+}

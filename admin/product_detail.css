@@ -1,0 +1,161 @@
+/* shop title*/
+.top-heading {
+	background-color: lightblue;
+	padding: 20px;
+	font-family: Montserrat;
+	font-size: 24px;	
+	text-align: center;
+}
+
+/* category*/
+.item-sidebar a {
+	font-family: "Roboto", sans-serif;
+}
+
+body,h1,h2,h3,h4,h5,h6,.item-wide {
+	font-family: "Montserrat", sans-serif;
+}
+
+/* shopping cart*/
+.cart {
+	background-color: lightskyblue;
+	font-family: Montserrat;
+	font-size: 20px;	
+	text-align: right;
+}
+.cart.image
+{
+	width: 20px;
+	height: 20px;
+}
+
+.listtable
+{
+	color:black;
+	float:right;
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 16px;
+	background-color: lightgreen;
+}
+
+.shoppinglist
+{
+	text-align: center;	
+	font-family: Montserrat;
+	font-size: 20px;
+	float:right;
+}
+
+.checkout-button
+{
+	background-color: lightgreen;
+	font-size: 20px;
+}
+
+nav ul
+{
+	display:none
+}
+
+nav:hover ul
+{
+	display:block;
+}
+
+
+/* layout*/
+.column {
+	float: left;
+	padding: 10px;
+  }
+
+/* Category */
+.column.left{
+	width: 40%;
+	font-weight: bold;
+	background-color: lightblue;
+}
+
+/* Product */
+.column.right{
+	width: 60%;
+	float:left top;
+}
+
+.menu
+{
+	list-style-type: square;
+}
+
+.menu li
+{
+	font-size: 20px;
+	color:red;
+	font-family: "Montserrat", sans-serif;
+	display: inline;
+}
+
+/* Product Detail*/
+.detail-image
+{
+	height: 200px;
+	float:left;
+}
+.detail-price
+{
+	font-family: sans-serif;
+}
+.detail-title
+{
+	font-weight: bold;
+	font-family: Montserrat;
+}
+
+.detail-table
+{
+	font-family: Montserrat;
+	width: 350px;
+	padding: 20px;
+}
+
+.detail-price
+{
+	color:red;
+	font-size: 30px;
+	font-weight: bold;
+	background-color:  lightgoldenrodyellow;
+	text-align: center;
+}
+.detail-type
+{
+	font-weight: lighter;
+	color:gray;
+	font-size: 16px;
+	text-align:left;
+}
+
+.detail-spec
+{
+	font-size: 20px;
+	text-align: center;
+}
+
+.detail-desciption
+{
+	font-size: 16px;
+	text-align: left;
+}
+
+.detail-input
+{
+	text-align:center ;
+	float:center;
+}
+
+.detail-button
+{
+	background-color: lightgreen;
+	font-size:14px;
+	padding:5px;
+}
