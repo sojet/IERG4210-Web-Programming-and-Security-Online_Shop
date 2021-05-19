@@ -1,0 +1,182 @@
+/* shop title*/
+.top-heading {
+	background-color: lightblue;
+	padding: 20px;
+	font-family: Montserrat;
+	font-size: 24px;	
+	text-align: center;
+}
+
+/* category*/
+.item-sidebar a {
+	font-family: "Roboto", sans-serif;
+}
+
+body,h1,h2,h3,h4,h5,h6,.item-wide {
+	font-family: "Montserrat", sans-serif;
+}
+
+li{
+	list-style-type: none;
+}
+
+/* shopping cart*/
+.cart {
+	background-color: lightskyblue;
+	font-family: Montserrat;
+	font-size: 20px;	
+	text-align: right;
+}
+.cart.image
+{
+	width: 20px;
+	height: 20px;
+}
+.cart.login
+{
+	font-size: 24px;
+	background-color: lightgreen;
+}
+
+nav ul
+{
+	display:none
+}
+
+nav:hover ul
+{
+	display:block;
+}
+
+.listtable
+{
+	color:black;
+	float:right;
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 16px;
+	background-color: lightgreen;
+
+}
+.shoppinglist
+{
+	text-align: center;	
+	font-family: Montserrat;
+	font-size: 20px;
+	float:right;
+}
+.checkout-button
+{
+	background-color: lightgreen;
+	font-size: 20px;
+}
+
+/* layout*/
+.column {
+	float: left;
+  }
+/* Category */
+.column.left{
+	width: 250px;
+	font-weight: bold;
+	background-color: lightblue;
+    height: 100%;
+    position: fixed;
+    overflow-y: auto;
+    top: 0;
+}
+
+/* Product */
+.right{
+	width: 1000px;
+	float: left;
+	display: block;
+    min-height: 200px;
+    margin-left: 300px;
+}
+
+.menu
+{
+	list-style-type: square;
+}
+
+.menu li
+{
+	font-size: 20px;
+	color:red;
+	font-family: "Montserrat", sans-serif;
+	display: inline;
+}
+
+ul.product-table
+{
+	width: 1000px;
+	height:auto;
+	margin:0; padding:0;
+	list-style:none;
+	overflow:auto;
+
+}
+
+.detail-image
+{
+	width: 300px;
+	float:left;
+}
+.detail-price
+{
+	font-family: sans-serif;
+}
+.detail-title
+{
+	font-weight: bold;
+	font-family: Montserrat;
+}
+
+.detail-table
+{
+	font-family: Montserrat;
+	width: 350px;
+	padding: 20px;
+}
+
+.detail-price
+{
+	color:red;
+	font-size: 30px;
+	font-weight: bold;
+	background-color:  lightgoldenrodyellow;
+	text-align: center;
+}
+.detail-type
+{
+	font-weight: lighter;
+	color:gray;
+	font-size: 16px;
+	text-align:left;
+}
+
+.detail-spec
+{
+	font-size: 20px;
+	text-align: center;
+}
+
+.detail-desciption
+{
+	font-size: 12px;
+	text-align: left;
+}
+
+.detail-input
+{
+	text-align:center ;
+	float:center;
+}
+
+.detail-button
+{
+	background-color: lightgreen;
+	font-size:14px;
+	padding:5px;
+}

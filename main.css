@@ -1,0 +1,161 @@
+/* shop title*/
+.top-heading {
+	background-color: lightblue;
+	padding: 20px;
+	font-family: Montserrat;
+	font-size: 24px;	
+	text-align: center;
+}
+
+/* category*/
+.item-sidebar a {
+	font-family: "Roboto", sans-serif;
+}
+
+body,h1,h2,h3,h4,h5,h6,.item-wide {
+	font-family: "Montserrat", sans-serif;
+}
+
+/* shopping cart*/
+.cart {
+	background-color: lightskyblue;
+	font-family: Montserrat;
+	font-size: 20px;	
+	text-align: right;
+
+}
+
+.cart.image
+{
+	width: 20px;
+	height: 20px;
+}
+.control-bar
+{
+    width: 100%;
+    overflow:hidden;
+}
+.cart.login
+{
+	font-size: 24px;
+	background-color: lightgreen;
+}
+
+nav ul
+{
+	display:none
+}
+
+nav:hover ul
+{
+	display:block;
+}
+
+.listtable
+{
+	color:black;
+	float:right;
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 16px;
+	background-color: lightgreen;
+
+}
+.shoppinglist
+{
+	text-align: center;	
+	font-family: Montserrat;
+	font-size: 20px;
+	float:right;
+}
+.checkout-button
+{
+	background-color: lightgreen;
+	font-size: 20px;
+}
+
+/* layout*/
+.column {
+	float: left;
+  }
+/* Category */
+.column.left{
+	width: 250px;
+	font-weight: bold;
+	background-color: lightblue;
+    height: 100%;
+    position: fixed;
+    overflow-y: auto;
+    top: 0;
+}
+
+/* Product */
+.right{
+	width: 1000px;
+	float: left;
+	display: block;
+    min-height: 200px;
+    margin-left: 300px;
+}
+
+.menu
+{
+	list-style-type: square;
+}
+
+.menu li
+{
+	font-size: 20px;
+	color:red;
+	font-family: "Montserrat", sans-serif;
+	display: inline;
+}
+
+ul.product-table
+{
+	width: 1000px;
+	height:auto;
+	margin:0; padding:0;
+	list-style:none;
+	overflow:auto;
+
+}
+
+ul.product-table li
+{
+	width:240px;
+	float:left;
+}
+
+.product-image
+{
+	height: 200px;
+	float:center;
+}
+
+.product-name
+{
+	color:black;
+	font-size:auto;
+	font-family: sans-serif;
+	float:center;
+	text-align:center;
+	width: auto;
+}
+
+.product-price
+{
+	background-color: lightgoldenrodyellow;
+	color: black;
+	font-size: 16px;
+	font-family: sans-serif;
+	text-align:center;
+}
+
+.product-button
+{
+	background-color: lightgreen;
+	font-size: 14px;
+	font-family: sans-serif;
+	text-align:center;
+}
